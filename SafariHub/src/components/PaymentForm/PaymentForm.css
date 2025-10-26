@@ -1,0 +1,152 @@
+.payment-form-container {
+  max-width: 480px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(220, 248, 214, 0.9);
+}
+
+.payment-title {
+  text-align: center;
+  color: #1b5e20;
+  margin-bottom: 0.25rem;
+}
+
+.payment-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 0.5rem;
+}
+
+.payment-method-btn {
+  flex: 1;
+  padding: 0.75rem 0.5rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.payment-method-btn.active {
+  background-color: #dcf8d6;
+  border-color: #4caf50;
+  color: #2e7d32;
+}
+
+.payment-method-btn.inactive {
+  background-color: #f7f7f7;
+  border-color: #d1d5db;
+}
+
+.payment-form {
+  /* No specific styles needed */
+}
+
+.card-section,
+.mpesa-section {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(76, 175, 80, 0.1);
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-col {
+  flex: 1;
+}
+
+.readonly {
+  background-color: #f9fafb;
+}
+
+.paypal-section {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.paypal-text {
+  margin-bottom: 1rem;
+}
+
+.paypal-btn {
+  background-color: #0070ba;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.paypal-btn:hover {
+  background-color: #005c99;
+}
+
+.mpesa-note {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.terms-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.checkbox {
+  margin-top: 0.25rem;
+}
+
+.terms-label {
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background-color: #388e3c;
+}
